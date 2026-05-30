@@ -20,3 +20,23 @@ main {
     margin-bottom: 15px;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 200;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: ##58a6ff;
+}
+
