@@ -102,3 +102,40 @@ footer {
     color: white;
     font-size: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 1.8em;
+    }
+    
+    main {
+        font-size: 1.4em;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .project-image {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        font-size: 1.4em;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+
+    main {
+        font-size: 1.2em;
+    }
+
+
+    }
+
+}
