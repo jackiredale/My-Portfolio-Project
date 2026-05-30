@@ -137,5 +137,21 @@ footer {
 
 
     }
+.hero {
+    background: linear-gradient(135deg, #58a6ff 0%, #eaeaff 100%);
+    color:wheat;
+    padding: 60px 20px;
+    margin: -10px -10px 20px -10px;
+}
 
+.hero h1 {
+    font-size: 3em;
+    font-weight: 200;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    font-weight: 200
+    margin-top: 10px 0 0 0;
 }
