@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     text-align: center;
 }
@@ -154,4 +158,43 @@ footer {
     font-size: 1.5em;
     font-weight: 200
     margin-top: 10px 0 0 0;
+}
+
+.social-links {
+    margin-top: 15px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 200;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+social-links a:hover {
+    background-color: #1c7ed6;
+    transform: translateY(-2px);
+}
+
+.cv-section {
+    margin: 20px 0;
+}
+
+.cv-button {
+    display: inline-block;
+    background-color: #667eea;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cv-button:hover {
+    background-color: #5a6fd6;
+    transform: translateY(-2px);
 }
