@@ -1,3 +1,8 @@
+* {
+    text-align: center;
+}
+
+
 body {
     font-family: Helvetica Neue, Helvetica;
     font-size: 16px;
@@ -57,7 +62,7 @@ header h1::first-letter {
 }
 
 #contact form div {
-        
+
     margin-bottom: 15px;
 }
 
@@ -88,4 +93,12 @@ header h1::first-letter {
 
 #contact form button:hover {
     background-color: #1c7ed6;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 30px;
 }
