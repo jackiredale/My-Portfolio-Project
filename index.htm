@@ -28,11 +28,12 @@
         <section id="projects">
             <h2>Projects</h2>
             
-            article class="project">
+            <article class="project">
                 <h3>Ev Fleet Simulator</h3>
                 <img src="./assets/img/blog-ev-fleet-simulator-demo.jpg" alt="screenshot of ev fleet simulator project" class="project-image">
                 <p>A web-based simulation tool that models the performance of electric vehicle fleets under various conditions. Built with React and D3.js.</p>
 
+            </article>
             <article class="project">
                 <h3>Trail Finder</h3>
                 <img src="./assets/img/trail-finder-hero.jpg" alt="screenshot of trail finder project" class="project-image">
@@ -42,7 +43,29 @@
 
         <section id="contact">
             <h2>Contact</h2>
-            <p>Email: <a href="mailto:jackiredale@hotmail.com">jackiredale@hotmail.com</a></p>
+            
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required> 
+                <div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button type="submit">Send</button>
+            </form>
+
+            <p>Or connect with me on <a href="https://www.linkedin.com/in/jack-iredale/" target="_blank">LinkedIn</a> or check out my <a href="https://github.com/jackiredale" target="_blank">GitHub</a>.</p>
+            <p>Phone: 07401958023</p>
+            <p>Email: jackiredale@hotmail.com</p>
         </section>
     </main>
 </body>
