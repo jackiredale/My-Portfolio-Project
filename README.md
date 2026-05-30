@@ -1,21 +1,22 @@
-# Jack Iredale - Portfolios Webite
+# Jack Iredale - Portfolio Website
 
-A Personal Protfolio Webaite Showcasing My Skills as a Full Stack Developer.
+A Personal Portfolio Website Showcasing My Skills as a Full Stack Developer.
 
 ## Live Site
-[View My PPortfolio](https://jackiredale.github.io/My-Portfolio-Project/)`
+[View My Portfolio](https://jackiredale.github.io/My-Portfolio-Project/)`
 
 ## Repository
 https://github.com/jackiredale/My-Portfolio-Project
 
 ## Features
 -Semantic HTML structure
--responsiev design
+-responsive design
 -contact form
 -project showcase
-modern styling with hover effects
+-modern styling with hover effects
 
-##Technologies Used
+
+## Technologies Used
 -HTML5
 -CSS3
 -Responsive Design
